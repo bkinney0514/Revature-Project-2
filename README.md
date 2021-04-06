@@ -1,6 +1,7 @@
 # Revature-Project-2
 A weekly newsletter that will be sent out to subscribers showcasing various recipes. Subscribers can set a skill level for recipes as well as certain food restrictions they would like to avoid. They can also favorite certain recipes, which would show up in a Favorites tab. 
 Requirements
+
 Users can
   •	Register.
   •	Login/Logout.
