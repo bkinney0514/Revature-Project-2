@@ -3,20 +3,37 @@ A weekly newsletter that will be sent out to subscribers showcasing various reci
 Requirements
 
 Users can
+
   •	Register.
+  
   •	Login/Logout.
+  
   •	Recover their password.
-  o	Email feature.
+  
+      o	Email feature.
+  
   •	Images included in Recipe Newsletter
+  
   •	Unsubscribe
+  
   •	Skill level
+  
   •	Food restrictions (allergies, vegan, gluten-etc.)
+  
   •	Favorites
+  
 Technologies
+  
   •	Spring MVC.
+  
   •	Hibernate.
+  
   •	Angular.
+  
   •	Log4j.
+  
   •	JUnit.
+  
   •	Java Mail.
+  
   •	AWS S3 SDK for JavaScript or Java.
