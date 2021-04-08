@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChickenParmComponent } from './chicken-parm/chicken-parm.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChickenParmComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
