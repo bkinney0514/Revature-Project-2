@@ -1,0 +1,27 @@
+Tables:
+
+Users:
+	User ID PRIMARY KEY
+	Username UNIQUE
+	User email UNIQUE
+	Password
+
+Recipes: 
+	Recipe ID PRIMARY KEY
+	Recipe Name
+	Skill level
+
+Favorite Recipess:
+	User ID references User_ID from Users
+	Recipe ID references Recipe_ID from Recipes
+
+Ingredients:
+	Ingredient ID PRIMARY KEY
+	Ingredient name
+	Amount
+	Recipe ID references Recipe_ID from Recipes
+
+
+
+select * from ingredients where ingredient_name is like "<search bar>"
+
