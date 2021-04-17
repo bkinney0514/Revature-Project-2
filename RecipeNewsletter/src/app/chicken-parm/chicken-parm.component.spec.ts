@@ -19,7 +19,19 @@ describe('ChickenParmComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should display Baked Chicken Parmesan', () => {
     expect(component).toBeTruthy();
+  });
+
+  it(`should have a title 'Baked Chicken Parmesan'`, () => {
+    const fixture = TestBed.createComponent(ChickenParmComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('Baked Chicken Parmesan');
+  });
+
+  it(`should have a boolean show = true`, () => {
+    const fixture = TestBed.createComponent(ChickenParmComponent);
+    const app = fixture.componentInstance;
+    expect(app.show).toEqual(true);
   });
 });

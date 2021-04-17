@@ -19,7 +19,19 @@ describe('CheesecakeComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should display Cheesecake', () => {
     expect(component).toBeTruthy();
+  });
+
+  it(`should have a title 'Cheesecake'`, () => {
+    const fixture = TestBed.createComponent(CheesecakeComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('Cheesecake');
+  });
+
+  it(`should have a boolean show = true`, () => {
+    const fixture = TestBed.createComponent(CheesecakeComponent);
+    const app = fixture.componentInstance;
+    expect(app.show).toEqual(true);
   });
 });

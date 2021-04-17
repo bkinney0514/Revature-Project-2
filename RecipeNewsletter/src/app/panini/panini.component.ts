@@ -12,4 +12,5 @@ export class PaniniComponent implements OnInit {
   ngOnInit(): void {
   }
   show: boolean = true
+  title: string = 'Grilled Panini'
 }

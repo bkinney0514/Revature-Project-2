@@ -19,7 +19,19 @@ describe('PaniniComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should display Grilled Panini', () => {
     expect(component).toBeTruthy();
+  });
+
+  it(`should have a title 'Grilled Panini'`, () => {
+    const fixture = TestBed.createComponent(PaniniComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('Grilled Panini');
+  });
+
+  it(`should have a boolean show = true`, () => {
+    const fixture = TestBed.createComponent(PaniniComponent);
+    const app = fixture.componentInstance;
+    expect(app.show).toEqual(true);
   });
 });

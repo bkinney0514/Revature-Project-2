@@ -19,7 +19,7 @@ describe('DinnerComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should display Dinner options', () => {
     expect(component).toBeTruthy();
   });
 });

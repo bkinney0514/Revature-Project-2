@@ -12,4 +12,5 @@ export class WesternOmeletComponent implements OnInit {
   ngOnInit(): void {
   }
   show: boolean = true;
+  title: string = 'Western Omelet'
 }

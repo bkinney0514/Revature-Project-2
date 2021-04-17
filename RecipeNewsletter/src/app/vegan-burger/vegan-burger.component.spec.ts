@@ -19,7 +19,19 @@ describe('VeganBurgerComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should display Grillable Vegan Burger', () => {
     expect(component).toBeTruthy();
+  });
+
+  it(`should have a title 'Grillable Vegan Burger'`, () => {
+    const fixture = TestBed.createComponent(VeganBurgerComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('Grillable Vegan Burger');
+  });
+
+  it(`should have a boolean show = true`, () => {
+    const fixture = TestBed.createComponent(VeganBurgerComponent);
+    const app = fixture.componentInstance;
+    expect(app.show).toEqual(true);
   });
 });

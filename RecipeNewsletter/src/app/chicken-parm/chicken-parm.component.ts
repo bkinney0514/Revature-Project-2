@@ -13,4 +13,5 @@ export class ChickenParmComponent implements OnInit {
   }
 
   show: boolean = true;
+  title: string = 'Baked Chicken Parmesan'
 }

@@ -12,4 +12,5 @@ export class VeganPancakesComponent implements OnInit {
   ngOnInit(): void {
   }
   show: boolean = true;
+  title: string = 'Vegan Pancakes'
 }

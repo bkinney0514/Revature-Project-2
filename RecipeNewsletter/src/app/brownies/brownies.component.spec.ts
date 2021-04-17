@@ -19,7 +19,19 @@ describe('BrowniesComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should display Brownies', () => {
     expect(component).toBeTruthy();
+  });
+
+  it(`should have a title 'Brownies'`, () => {
+    const fixture = TestBed.createComponent(BrowniesComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('Brownies');
+  });
+
+  it(`should have a boolean show = true`, () => {
+    const fixture = TestBed.createComponent(BrowniesComponent);
+    const app = fixture.componentInstance;
+    expect(app.show).toEqual(true);
   });
 });

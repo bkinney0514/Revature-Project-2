@@ -19,7 +19,19 @@ describe('WesternOmeletComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should display Western Omelet', () => {
     expect(component).toBeTruthy();
+  });
+
+  it(`should have a title 'Western Omelet'`, () => {
+    const fixture = TestBed.createComponent(WesternOmeletComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('Western Omelet');
+  });
+
+  it(`should have a boolean show = true`, () => {
+    const fixture = TestBed.createComponent(WesternOmeletComponent);
+    const app = fixture.componentInstance;
+    expect(app.show).toEqual(true);
   });
 });

@@ -19,7 +19,7 @@ describe('VeganComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should display Vegan options', () => {
     expect(component).toBeTruthy();
   });
 });
